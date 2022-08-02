@@ -152,4 +152,6 @@
     color: var(--primary-color);
   }
 
+  @media (max-width:600px)
+
 
