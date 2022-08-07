@@ -32,6 +32,10 @@
     flex-direction:row;
   }
 
+  .imagem {
+    order: 2;
+  }
+
   .imagem img {
     width: 100%;
     position: bottom center;
@@ -41,6 +45,10 @@
     order: 1;
     width: 720px;
     background-color: var(--background);
+  }
+  
+  .conteudo .logo {
+    padding: 40px 40px 120px;
   }
 
   .interno {
@@ -57,17 +65,21 @@
   .partep {
     display: flex;
     justify-content: center;
-    width: 63%;
+    width: 72%;
   }
 
   .partep h2 {
     color: white;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
   }
 
   #loginh3 {
     font-family: 'Roboto', sans-serif;
     color: var(--text-base);
     font-size: 16px;
+    width: 96%;
   }
 
   .email h3 {
